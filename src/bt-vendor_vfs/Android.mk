@@ -17,6 +17,7 @@
 include $(CLEAR_VARS)
 
 LOCAL_CFLAGS := -g -c -W -Wall -O2
+LOCAL_CFLAGS := -Wno-error
 
 # needed to pull in the header file for libbt-vendor.so
 BDROID_DIR:= system/bt

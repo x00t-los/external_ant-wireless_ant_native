@@ -83,6 +83,7 @@ LOCAL_C_INCLUDES:= \
 LOCAL_C_INCLUDES += frameworks/base/core/jni/include
 
 LOCAL_CFLAGS:= -g -c -W -Wall -O2
+LOCAL_CFLAGS:= -Wno-error
 
 LOCAL_SRC_FILES:= \
 	app/ant_app.c
