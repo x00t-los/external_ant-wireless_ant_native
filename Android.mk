@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 
+ifneq ($(TARGET_DEVICE),X00TD)
 ifneq ($(BOARD_ANT_WIRELESS_DEVICE),)
 
 LOCAL_PATH := $(call my-dir)
@@ -100,3 +101,4 @@ include $(BUILD_EXECUTABLE)
 
 
 endif # BOARD_ANT_WIRELESS_DEVICE defined
+endif #
